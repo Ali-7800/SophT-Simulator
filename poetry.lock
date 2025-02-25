@@ -1076,28 +1076,6 @@ dask = ["dask[array] (>=1.0)", "numpy (>=1.20,<2.0)"]
 scipy = ["scipy (>=1.8.0)"]
 
 [[package]]
-name = "pyFFTW"
-version = "0.13.1+4.g44ad25d"
-description = "A pythonic wrapper around FFTW, the FFT library, presenting a unified interface for all the supported transforms."
-optional = false
-python-versions = ">=3.8"
-files = []
-develop = false
-
-[package.dependencies]
-numpy = ">=1.20,<2.0"
-
-[package.extras]
-dask = ["dask[array] (>=1.0)", "numpy (>=1.20,<2.0)"]
-scipy = ["scipy (>=1.8.0)"]
-
-[package.source]
-type = "git"
-url = "https://github.com/tp5uiuc/pyFFTW.git"
-reference = "macos_fix"
-resolved_reference = "44ad25da440608fc36b557bca29013103780d5fb"
-
-[[package]]
 name = "pyflakes"
 version = "2.4.0"
 description = "passive checker of Python programs"
